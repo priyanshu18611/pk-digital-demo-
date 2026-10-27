@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Professional coaching centre website demo with courses and student enquiries.">
+  <title>BrightPath Academy | Coaching Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="brand">BrightPath<span>.</span></a>
+    <a class="nav-cta" href="#contact">Enquire Now</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="pill">YOUR FUTURE STARTS HERE</div>
+      <h1>Learn Today.<br><span>Lead Tomorrow.</span></h1>
+      <p>
+        Quality coaching, personal guidance and a learning
+        environment designed to help students grow.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#courses">Explore Courses</a>
+        <a class="button secondary" href="#contact">Contact Us</a>
+      </div>
+      <div class="stats">
+        <div><strong>Expert</strong><small>Mentors</small></div>
+        <div><strong>Focused</strong><small>Learning</small></div>
+        <div><strong>Student</strong><small>Support</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="section-heading">
+        <span>WHAT WE OFFER</span>
+        <h2>Courses designed for you</h2>
+        <p>Replace these demo courses with the real institute's offerings.</p>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-icon">01</div>
+          <h3>Foundation Classes</h3>
+          <p>Build strong concepts and improve your fundamentals.</p>
+          <a href="#contact" class="course-link">Ask about this course →</a>
+        </article>
+        <article class="course-card">
+          <div class="course-icon">02</div>
+          <h3>Competitive Exams</h3>
+          <p>Structured preparation, practice and regular guidance.</p>
+          <a href="#contact" class="course-link">Ask about this course →</a>
+        </article>
+        <article class="course-card">
+          <div class="course-icon">03</div>
+          <h3>Computer Skills</h3>
+          <p>Learn practical digital skills for study and work.</p>
+          <a href="#contact" class="course-link">Ask about this course →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <span>WHY CHOOSE US</span>
+      <h2>A better learning experience.</h2>
+      <p>
+        Personal attention, a supportive environment and
+        learning plans that match students' needs.
+      </p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <span>LET'S CONNECT</span>
+        <h2>Start your learning journey</h2>
+        <p>Send an enquiry directly through WhatsApp.</p>
+      </div>
+
+      <form id="enquiry-form">
+        <label for="student">Student name</label>
+        <input id="student" name="student" required
+          maxlength="80" placeholder="Enter your name">
+
+        <label for="phone">Your phone number</label>
+        <input id="phone" name="phone" required
+          type="tel" inputmode="numeric" pattern="[0-9]{10}"
+          placeholder="10-digit mobile number">
+
+        <label for="course">Interested course</label>
+        <select id="course" name="course" required>
+          <option value="">Select a course</option>
+          <option>Foundation Classes</option>
+          <option>Competitive Exams</option>
+          <option>Computer Skills</option>
+        </select>
+
+        <button class="button primary full" type="submit">
+          Send WhatsApp Enquiry
+        </button>
+        <p class="form-note">
+          Demo website: replace the example contact details before publishing.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="brand">BrightPath<span>.</span></a>
+    <p>Coaching Website Demo · Built by Priyanshu Kumar</p>
+    <p>Sample content for demonstration purposes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
